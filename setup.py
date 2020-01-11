@@ -14,7 +14,7 @@ plugin_author = "Martin Muehlhaeuser"
 
 plugin_author_email = "github@mmone.de"
 
-plugin_url = "https://github.com/ShohninDmitriy/OctoPrintKlipper"
+plugin_url = "https://github.com/ShohninDmitriy/OctoprintKlipperPlugin"
 
 plugin_license = "AGPLv3"
 
