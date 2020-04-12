@@ -16,6 +16,9 @@ from octoprint.util.comm import parse_firmware_line
 from .modules import KlipperLogAnalyzer
 import flask
 
+__plugin_pythoncompat__ = ">=2.7,<4"
+
+
 class KlipperPlugin(
       octoprint.plugin.StartupPlugin,
       octoprint.plugin.TemplatePlugin,
