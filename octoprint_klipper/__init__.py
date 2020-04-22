@@ -307,7 +307,7 @@ class KlipperPlugin(
 
    def get_update_information(self):
       return dict(
-         BetterKlipper=dict(
+         klipper=dict(
             displayName=self._plugin_name,
             displayVersion=self._plugin_version,
             type="github_release",
