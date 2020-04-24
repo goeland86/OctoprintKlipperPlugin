@@ -19,7 +19,7 @@ import flask
 __plugin_pythoncompat__ = ">=2.7,<4"
 
 
-class BetterKlipperPlugin(
+class KlipperPlugin(
       octoprint.plugin.StartupPlugin,
       octoprint.plugin.TemplatePlugin,
       octoprint.plugin.SettingsPlugin,
@@ -346,7 +346,7 @@ def __plugin_load__():
    global __plugin_implementation__
    global __plugin_hooks__
 
-   __plugin_implementation__ = BetterKlipperPlugin()
+   __plugin_implementation__ = KlipperPlugin()
    __plugin_hooks__ = {
       "octoprint.comm.protocol.gcode.received": __plugin_implementation__.on_parse_gcode,
       "octoprint.plugin.softwareupdate.check_config": __plugin_implementation__.get_update_information

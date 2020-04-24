@@ -1,6 +1,6 @@
 # coding=utf-8
 
-plugin_identifier = "BetterKlipper"
+plugin_identifier = "klipper"
 
 plugin_package = "octoprint_klipper"
 
